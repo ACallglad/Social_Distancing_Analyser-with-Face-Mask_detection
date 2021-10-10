@@ -297,7 +297,7 @@ Give a ⭐️ if this project helped you!
 
 💀 [Abhinav Chandra](https://www.linkedin.com/in/abhinav-chandra-165705210/), [GitHub](https://github.com/ACallglad), Email: abhinavchandra0526@gmail.com
 
-💉 [Omkar Chndorkar ](https://www.linkedin.com/in/omkarch/), [GitHub](https://github.com/gotenksIN), Email: forumomkar@gmail.com
+💉 [Omkar Chandorkar ](https://www.linkedin.com/in/omkarch/), [GitHub](https://github.com/gotenksIN), Email: forumomkar@gmail.com
 
 
 ---
