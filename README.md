@@ -1,4 +1,4 @@
-# **Social Distancing Analyzer with Face mask detection **
+## **Social Distancing Analyzer with Face mask detection **
 
 <p align="center">
 <img src="./media/figures/banner.jpeg" alt="drawing" width="1000"/>  
