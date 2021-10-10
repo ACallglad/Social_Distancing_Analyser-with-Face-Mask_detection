@@ -47,7 +47,7 @@ After this, fork this repo and make sure that your environment is activated and 
 ---
 ### **Build and Run Docker Image**
 
-The object detection model pipeline is based on [YOLOv4](https://github.com/AlexeyAB/darknet) and its dependencies, compilation, and configuration are packaged in a Docker Image. Before continuing, make sure you have [Docker](https://docs.docker.com/get-docker/), [Nvidia Docker](https://github.com/NVIDIA/nvidia-docker), and **440 Nvidia Drivers** installed in your system.
+The object detection model pipeline is based on [YOLOv4](https://github.com/AlexeyAB/darknet) and its dependencies, compilation, and configuration are packaged in a Docker Image. Before continuing, make sure you have [Docker](https://docs.docker.com/get-docker/), [Nvidia Docker](https://github.com/NVIDIA/nvidia-docker), and **Nvidia GPU cluster** access given to our system.
 
 To run the Social Distancing Analyser Docker Image, just run the bash script ```start.sh```. If it's the first time probably is going to take a while, so, go for a soda and watch a series chapter or have a look at the meme zone for fun.
 
