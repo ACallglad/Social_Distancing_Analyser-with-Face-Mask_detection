@@ -1,4 +1,4 @@
-# **Social Distancing Analyzer**
+# **Social Distancing Analyzer with Face mask detection **
 
 <p align="center">
 <img src="./media/figures/banner.jpeg" alt="drawing" width="1000"/>  
@@ -218,11 +218,9 @@ Give a ⭐️ if this project helped you!
 ---
 ### **Contact and Developers**
 
-💀 [John A Betancourt G](https://www.linkedin.com/in/john-betancourt-345557129/), [GitHub](https://github.com/JohnBetaCode), Email: john.betancourt93@gmail.com
+💀 [Abhinav Chandra](https://www.linkedin.com/in/abhinav-chandra-165705210/), [GitHub](https://github.com/ACallglad), Email: abhinavchandra0526@gmail.com
 
-💉 [David G Cardozo B](https://www.linkedin.com/in/davidcardozo/), [GitHub](https://github.com/Davidnet), Email: david@kiwicampus.com
-
-🚕 [Camilo A Alvis B](https://www.linkedin.com/in/camiloalvis/), [GitHub](https://github.com/kmilo7204), Email: kmilo7204@gmail.com
+💉 [Omkar Chndorkar ](https://www.linkedin.com/in/omkarch/), [GitHub](https://github.com/gotenksIN), Email: forumomkar@gmail.com
 
 
 ---
@@ -243,20 +241,3 @@ We appreciate the chance to help the world, thank you China! ...
 ---
 ### **Other Projects**
 
-[<img src="https://img.youtube.com/vi/UIxAvWMknCE/0.jpg" width="220">](https://www.youtube.com/watch?v=UIxAvWMknCE)
-[<img src="https://img.youtube.com/vi/GFoGM6q34pg/0.jpg" width="220">](https://www.youtube.com/watch?v=GFoGM6q34pg)
-[<img src="https://img.youtube.com/vi/muHPgD69cwE/0.jpg" width="220">](https://www.youtube.com/watch?v=muHPgD69cwE)
-[<img src="https://img.youtube.com/vi/o3hAfaeo0XE/0.jpg" width="220">](https://www.youtube.com/watch?v=o3hAfaeo0XE)
-[<img src="https://img.youtube.com/vi/tPihhnXcGKM/0.jpg" width="220">](https://www.youtube.com/watch?v=tPihhnXcGKM)
-[<img src="https://img.youtube.com/vi/4vM0W3lUiuM/0.jpg" width="220">](https://www.youtube.com/watch?v=4vM0W3lUiuM)
-[<img src="https://img.youtube.com/vi/r5-JHjTwx8c/0.jpg" width="220">](https://www.youtube.com/watch?v=r5-JHjTwx8c)
-[<img src="https://img.youtube.com/vi/TfKW2aXsCQQ/0.jpg" width="220">](https://www.youtube.com/watch?v=TfKW2aXsCQQ)
-[<img src="https://img.youtube.com/vi/Z4jQc3-psy8/0.jpg" width="220">](https://www.youtube.com/watch?v=Z4jQc3-psy8)
-[<img src="https://img.youtube.com/vi/0U3lQ1u-Hd4/0.jpg" width="220">](https://www.youtube.com/watch?v=0U3lQ1u-Hd4)
-[<img src="https://img.youtube.com/vi/VX4ywdUtaI4/0.jpg" width="220">](https://www.youtube.com/watch?v=VX4ywdUtaI4)
-[<img src="https://img.youtube.com/vi/0BHpz8lCFfc/0.jpg" width="220">](https://www.youtube.com/watch?v=0BHpz8lCFfc)
-
----
-<p align="center">
-<img src="./media/figures/logo.jpg" alt="drawing" width="250"/> 
-</p>
