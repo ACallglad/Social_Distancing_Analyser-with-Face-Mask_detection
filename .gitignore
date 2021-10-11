@@ -10,3 +10,4 @@
 /models/ssd_mobilenet_v2_coco_2018_03_29/
 /media/figures/drawings.cdr
 /configs/*.yaml
+venv/*
