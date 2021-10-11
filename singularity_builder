@@ -1,0 +1,48 @@
+Bootstrap: docker
+From: nvcr.io/nvidia/tensorflow:21.09-tf2-py3
+
+%runscript
+    "$@"
+%post
+    apt-get update && apt-get install -y --no-install-recommends \
+    curl \
+    build-essential \
+    python3-dev \
+    libgtk2.0-dev \
+    cmake && \
+    rm -rf /var/lib/apt/lists/*
+    python -m pip install --no-cache-dir jupyter pyaml opencv-python
+
+    OPENCV_VERSION=4.3.0
+    JOBS_MAKE=4
+    YOLO_WEIGHTS_URL=https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
+
+    curl -LOk https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.tar.gz && \
+    tar -xf ${OPENCV_VERSION}.tar.gz -C /opt --transform s/opencv-${OPENCV_VERSION}/opencv/ && \
+    mkdir /opt/opencv/build && cmake -S /opt/opencv -B /opt/opencv/build \
+    -DBUILD_EXAMPLES=OFF \
+    -DBUILD_DOCS=OFF && \
+    make install -C /opt/opencv/build -j${JOBS_MAKE} && \
+    rm -rf ${OPENCV_VERSION}.tar.gz
+
+    curl -LOk https://github.com/Davidnet/darknet/archive/master.tar.gz && \
+    tar -xf master.tar.gz && \
+    cd darknet-master && \
+    ln -s /usr/local/cuda/lib64/stubs/libcuda.so /usr/lib/x86_64-linux-gnu/libcuda.so.1 && \
+    ./build.sh && \
+    rm -rf /usr/lib/x86_64-linux-gnu/libcuda.so.1 && cd .. && \
+    rm -rf master.tar.gz && \
+    cp darknet-master/libdark.so darknet-master/darknet.py . && \
+    mkdir cfg && cp darknet-master/cfg/yolov4.cfg darknet-master/cfg/coco.data cfg/  && \
+    mkdir data && cp darknet-master/data/coco.names data/ && \
+    curl -LOk ${YOLO_WEIGHTS_URL} && \
+    rm -rf darknet-master && \
+    mv libdark.so libdarknet.so && \
+    sed -i '0,/8/s//64/' cfg/yolov4.cfg
+
+    git clone https://github.com/ACallglad/Social_Distancing_Analyser-with-Face-Mask_detection TEAM-MITWPU && cd TEAM-MITWPU
+    source configs/env.sh && python social_distancing.py
+
+%environment
+XDG_RUNTIME_DIR=
+%labels
