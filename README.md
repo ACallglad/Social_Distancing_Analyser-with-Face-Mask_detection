@@ -315,6 +315,3 @@ Use face mask  |  Keep your distance
 
 We appreciate the chance to help the world, thank you China! ... 
 
----
-### **Other Projects**
-
